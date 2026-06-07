@@ -6,7 +6,7 @@ from plotly.subplots import make_subplots
 
 
 # ── 1. LOAD & CACHE ──────────────────────────────────────────────────────────
-def load_data(path="data/superstore.csv"):
+def load_data(path="superstore.csv"):
     df = pd.read_csv(path, encoding="latin-1")
     df.columns = df.columns.str.strip()
 

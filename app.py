@@ -33,7 +33,7 @@ st.markdown("""
 # ── LOAD DATA ─────────────────────────────────────────────────────────────────
 @st.cache_data
 def get_df():
-    return load_data("data/superstore.csv")
+    return load_data("superstore.csv")
 
 try:
     df_raw = get_df()
@@ -256,3 +256,4 @@ with tabs[5]:
 
     st.markdown("---")
     st.caption("Built by Harsh · Global Superstore EDA · Streamlit + Plotly")
+    
